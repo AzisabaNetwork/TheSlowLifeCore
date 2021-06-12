@@ -1,6 +1,6 @@
 # TheSlowLifeCore
 
-Commands
+## Commands
 - /kiai
 - /trash
 - /tutorial
@@ -9,5 +9,5 @@ Commands
 - /wiki
 - /vote
 
-Items
+## Items
 - flashlight
