@@ -8,3 +8,6 @@ Commands
 - /website
 - /wiki
 - /vote
+
+Items
+- flashlight
