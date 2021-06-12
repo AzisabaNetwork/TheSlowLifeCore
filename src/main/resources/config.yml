@@ -1,0 +1,15 @@
+#TheSlowLifeCore plugin configuration file
+
+lp-server-name: tsl
+
+website-url: https://azisaba.net/
+
+wiki-url: https://azisabaofficial.playing.wiki/d/The%20Slow%20Life
+
+unofficial-wiki-url: https://aziserver.playing.wiki/
+
+tutorial-teleport: e:tutorial:1,8,1:0:0
+
+vote-url-jms: https://minecraft.jp/servers/azisaba.net
+
+vote-url-monocraft: https://monocraft.net/servers/xWBVrf1nqB2P0LxlMm2v

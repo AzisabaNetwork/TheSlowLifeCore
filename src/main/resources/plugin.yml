@@ -1,0 +1,72 @@
+name: TheSlowLifeCore
+version: ${project.version}
+main: com.github.mori01231.theslowlifecore.TheSlowLifeCore
+api-version: 1.16
+authors: [ Mori01231 ]
+website: https://github.com/Mori01231
+
+commands:
+  wiki:
+    description: Show wiki URL.
+    permission: theslowlifecore.wiki
+    usage: Syntax error! Simply type /wiki to show wiki URL.
+  website:
+    description: Show website URL.
+    aliases: [web, webpage, hp, homepage]
+    permission: theslowlifecore.website
+    usage: Syntax error! Simply type /website to show website URL.
+  tutorial:
+    description: Skip to tutorial.
+    permission: theslowlifecore.tutorial
+    usage: Syntax error! Simply type /tutorial to skip to tutorial.
+  sara:
+    description: Switch between showing sara and not.
+    permission: theslowlifecore.sara
+    usage: Syntax error! Simply type /sara to switch between showing sara and not.
+  trash:
+    description: Open trash.
+    aliases: [gomi]
+    permission: theslowlifecore.trash
+    usage: Syntax error! Simply type /trash to open trash.
+  kiai:
+    description: Kiai
+    permission: theslowlifecore.kiai
+    usage: Syntax error! Simply type /kiai to kiai.
+  voteurl:
+    description: Show Vote URL.
+    aliases: [vote]
+    permission: theslowlifecore.vote
+    usage: Syntax error! Simply type /voteurl to show vote URL.
+
+permissions:
+  theslowlifecore.*:
+    description: Gives access to all theslowlifecore commands
+    children:
+      theslowlifecore.wiki: true
+      theslowlifecore.website: true
+      theslowlifecore.tutorial: true
+      theslowlifecore.sara: true
+      theslowlifecore.trash: true
+      theslowlifecore.kiai: true
+      theslowlifecore.vote: true
+  theslowlifecore.wiki:
+    description: Allows you to show the wiki URL.
+    default: true
+  theslowlifecore.website:
+    description: Allows you to show the website URL.
+    default: true
+  theslowlifecore.tutorial:
+    description: Allows you to skip to tutorial.
+    default: false
+  theslowlifecore.sara:
+    description: Allows you to switch between showing sara and not.
+    default: true
+  theslowlifecore.trash:
+    description: Allows you to open trash.
+    default: true
+  theslowlifecore.kiai:
+    description: Allows you to kiai.
+    default: true
+  theslowlifecore.vote:
+    description: Allows you to show the vote URL.
+    default: true
