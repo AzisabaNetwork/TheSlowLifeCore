@@ -20,7 +20,7 @@ public class ItemUseListener implements Listener {
         ItemStack offHandItem = player.getInventory().getItemInOffHand();
 
         // flash light
-        if(offHandItem.getType() == Material.TORCH || offHandItem.getType() == Material.ORANGE_DYE){
+        if(offHandItem.getType() == Material.TORCH || offHandItem.getType() == Material.WOODEN_SWORD){
             try{
                 if(offHandItem.hasItemMeta() && offHandItem.getItemMeta().hasDisplayName() && offHandItem.getItemMeta().getDisplayName().equalsIgnoreCase("§cflashlight")){
                     player.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION,18000,1));
