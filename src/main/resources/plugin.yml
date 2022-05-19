@@ -4,6 +4,8 @@ main: com.github.mori01231.theslowlifecore.TheSlowLifeCore
 api-version: 1.16
 authors: [ Mori01231 ]
 website: https://github.com/Mori01231
+depend:
+  - AziPluginMessaging
 
 commands:
   wiki:
